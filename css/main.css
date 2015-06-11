@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#iverson, #igoudala, #rebuild  {
+  width: 100vw;
+  height: 60vh;
+  background-color: red;
+}
+.left {
+  float: left;
+  width: 40%;
+  height: 100%;
+  background-color: white;
+}
+.right {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-color: tomato;
+}
+
+#iverson .right {
+  background-image: url(http://a2.fssta.com/content/dam/fsdigital/fscom/mlb/images/2015/03/20/032015-NBA-Philadelphia-76ers-Allen-Iverson-PI-JE.vadapt.620.high.0.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#igoudala .right {
+  background-image: url(http://static.foxsports.com/content/fscom/img/2012/05/19/051812-NBA-Iguodala-PI-AM_20120519020548412_660_320.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#rebuild .right {
+  background-image: url(http://www.csnphilly.com/sites/csnphilly/files/slideshow-sixers-team-ap_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.left h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.left p {
+  font-size: 15px;
+  padding: 0 50px;
+  text-align: justify;
+}
+
+.left .quotetext {
+  float: left;
+  font-size: 30px;
+  margin: 20px 20px 20px 30px;
+  border-bottom: 9px solid black;
+  color
+}
+
+
+
+
