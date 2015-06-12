@@ -1,0 +1,94 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#one {
+	width: 100vw;
+	height: 500px;
+	border-bottom: 2px solid black;
+}
+#noel {
+	width: 45%;
+	height: 100%;
+	float: left;
+	/*border-bottom: 2px solid black;*/
+	overflow: hidden;
+	position: relative;
+}
+#noel img {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#noel h3, h5 {
+	font-family: "Verdana";
+	margin: 0px;
+	position: absolute;
+	bottom: 5em;
+	right: 0px;
+}
+#plea {
+	width: 55%;
+	height: 100%;
+	float: left;
+	/*border-bottom: 2px solid black;*/
+}
+#plea p {
+	width: 50%;
+	margin: 115px auto 0 auto;
+	padding: 5px 0px;
+	font-family: "Verdana";
+	text-align: justify;
+}
+#plea h1 {
+	color: red;
+	font-family: "Helvetica";
+	font-size: 4em;
+	text-align: center;
+	margin: 55px auto 5px auto;
+	font-weight: 200;
+	letter-spacing: 3px;
+	border: 2px solid red;
+	width: 300px;
+	padding: 10px 6px 6px 6px;
+}
+#two {
+	width: 100vw;
+	height: 400px;
+}
+#left, #right, #center {
+	width: 33%;
+	float: left;
+	height: 100%;
+}
+#left h2, #right h2, #center h2 {
+	font-family: "Helvetica";
+	font-weight: 200;
+	color: red;
+	text-align: center;
+}
+#left p, #right p, #center p {
+	width: 80%;
+	margin: 0 auto;
+	font-family: "Verdana";
+	text-align: justify;
+}
+#left .bot, #right .bot, #center .bot {
+	font-weight: 100;
+	color: red;
+	width: 150px;
+	font-family: "Helvetica";
+	margin: 20px auto 0 auto;
+	text-align: center;
+	border: 1px solid red;
+	padding: 3px 10px;
+}
+
+
+
+
+
+
+
