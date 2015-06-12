@@ -37,7 +37,7 @@ body {
 }
 #plea p {
 	width: 50%;
-	margin: 0 auto;
+	margin: 115px auto 0 auto;
 	padding: 5px 0px;
 	font-family: "Verdana";
 	text-align: justify;
@@ -47,9 +47,12 @@ body {
 	font-family: "Helvetica";
 	font-size: 4em;
 	text-align: center;
-	margin: 115px 5px 5px 5px;
+	margin: 55px auto 5px auto;
 	font-weight: 200;
 	letter-spacing: 3px;
+	border: 2px solid red;
+	width: 300px;
+	padding: 10px 6px 6px 6px;
 }
 #two {
 	width: 100vw;
@@ -70,6 +73,17 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	font-family: "Verdana";
+	text-align: justify;
+}
+#left .bot, #right .bot, #center .bot {
+	font-weight: 100;
+	color: red;
+	width: 150px;
+	font-family: "Helvetica";
+	margin: 20px auto 0 auto;
+	text-align: center;
+	border: 1px solid red;
+	padding: 3px 10px;
 }
 
 
