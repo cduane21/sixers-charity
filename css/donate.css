@@ -4,6 +4,44 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+#nav_bar {
+	width: 100vw;
+	height: 60px;
+	background-color: #fff;
+}
+#nav_bar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#nav_bar ul li {
+	font-weight: 200;
+	font-family: "Helvetica";
+	font-size: 1.5em;
+	display: inline-block;
+	float: right;
+	margin: 20px 25px;
+}
+#nav_bar a {
+	text-decoration: none;
+	color: red;
+}
+#nav_bar a:visited {
+	color: red;
+}
+#nav_bar img {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#logo img {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
 #one {
 	width: 100vw;
 	height: 500px;
@@ -35,9 +73,14 @@ body {
 	float: left;
 	/*border-bottom: 2px solid black;*/
 }
+#plea h3 {
+	font-family: "Verdana";
+	text-align: center;
+	margin-top: 75px;
+}
 #plea p {
 	width: 50%;
-	margin: 115px auto 0 auto;
+	margin: 0px auto 0 auto;
 	padding: 5px 0px;
 	font-family: "Verdana";
 	text-align: justify;
@@ -84,6 +127,14 @@ body {
 	text-align: center;
 	border: 1px solid red;
 	padding: 3px 10px;
+}
+#two .bot:hover {
+	background-color: red;
+	color: white;
+}
+#plea h1:hover {
+	background-color: red;
+	color: white;
 }
 
 
