@@ -128,6 +128,14 @@ body {
 	border: 1px solid red;
 	padding: 3px 10px;
 }
+#two .bot:hover {
+	background-color: red;
+	color: white;
+}
+#plea h1:hover {
+	background-color: red;
+	color: white;
+}
 
 
 
